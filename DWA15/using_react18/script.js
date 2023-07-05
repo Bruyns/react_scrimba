@@ -1,3 +1,6 @@
+import "react" from "./react"
+import "react-dom" from "./react-dom"
+
 /**
 Challenge: find out what happens if we try to append JSX
 to our div#root using .append() instead of ReactDOM
@@ -23,4 +26,5 @@ const navbar = (
     </nav>
 )
 
-    document.getElementById("root").append((JSON.stringify(navbar));
+    // document.getElementById("root").append(JSON.stringify(navbar))
+    ReactDOM.render(navbar, document.getElementById("root"));
