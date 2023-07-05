@@ -1,4 +1,4 @@
-// ReactDOM.render(<h1>Hello, React!</h1>, document.getElementById("root"))
+ReactDOM.render(<h1 className="header">Hello, React!</h1>, document.getElementById("root"))
 
 /* 
 Challenge - recreate the above line of code in vanilla JS by creating and
@@ -10,7 +10,7 @@ appending an h1 to our div#root (without using innerHTML).
 - append it as a child of the div#root
     
 */
-const text = document.createElement("h1");
-text.textContent = "Hello, React!";
-text.className = "header";
-document.getElementById("root").append(text);
+// const text = document.createElement("h1");
+// text.textContent = "Hello, React!";
+// text.className = "header";
+// document.getElementById("root").append(text);
