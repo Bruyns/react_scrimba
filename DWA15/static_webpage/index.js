@@ -1,5 +1,5 @@
-import React from "react"
-import ReactDOM from "react-dom"
+// import React from "react"
+// import ReactDOM from "react-dom"
 
 /*
 Challenge: Starting from scratch, build and render the 
@@ -18,8 +18,9 @@ Hints:
 
 const page = (
   <div>
-    <img src="./react-logo.png" width="40px" height="40px">react logo</img>
-    <header>Fun facts about React</header>
+    
+    <img src="./img/react-logo.png" width="40px" height="40px"/>
+    <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
       <li>Was originally created by Jordan Walke</li>
@@ -29,5 +30,6 @@ const page = (
     </ul>
   </div>
 )
+
 
 ReactDOM.render( page, document.getElementById("root"));
