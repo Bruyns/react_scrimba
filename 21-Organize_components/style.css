@@ -1,7 +1,11 @@
 .nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+}
+
+.nav-logo {
+    width: 60px;
 }
 
 .nav-items {
@@ -11,9 +15,4 @@
 
 .nav-items > li {
     padding: 10px;
-}
-
-.img-logo {
-     width: 40px;
-     height: 40px;
 }

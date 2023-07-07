@@ -1,18 +1,6 @@
-
-function Header () {
-  return (
-  <header>
-    <nav className="nav">
-      <img className="img-logo" src="./img/react-logo.png"/>
-      <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-      </ul>
-    </nav>
-  </header>
-  )
-}
+import React from "react";
+import ReactDOM  from "react-dom";
+import Header from "./Header";
 
 function MainContent () {
   return (
@@ -42,10 +30,10 @@ function Footer () {
 function Page () {
   return (
     <div>
-    <Header/>
-    <MainContent/>
-    <Footer/>
-  </div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
+    </div>
   )
 }
 

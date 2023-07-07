@@ -1,15 +1,4 @@
-
-
-
-function Header () {
-  return (
-  <header>
-    <nav>
-      <img src="./img/react-logo.png" width="40px" height="40px"/>
-    </nav>
-  </header>
-  )
-}
+import Header from "./Header";
 
 function Footer () {
   return (
