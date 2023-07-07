@@ -1,5 +1,5 @@
-// import React from "react"
-// import ReactDOM from "react-dom"
+import React from "react"
+import ReactDOM from "react-dom"
 import Header from "./Header.js"
 import Footer from "./components/Footer.js"
 import MainContent from "./components/MainContent.js"
@@ -17,11 +17,11 @@ into their own files.
 function Page() {
     return (
         <div>
-            <Header />
-            <MainContent />
-            <Footer />
+            <Header/>
+            <MainContent/>
+            <Footer/>
         </div>
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<Page/>, document.getElementById("root"))
