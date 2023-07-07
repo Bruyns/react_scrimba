@@ -1,36 +1,18 @@
 // import React from "react"
 // import ReactDOM from "react-dom"
-import Header from "./Header"
+import Header from "./Header.js"
+import Footer from "./components/Footer.js"
+import MainContent from "./components/MainContent.js"
+
 
 /**
 Challenge: move the Footer and MainContent components
 into their own files.
 */
 
-function Footer() {
-    return (
-        <footer>
-            <small>© 2021 Brandon development. All rights reserved.</small>
-        </footer>
-    )
-}
 
-function MainContent() {
-    return (
-        <div>
-            <h1>Why I am excited to learn React</h1>
-            <h3>Here are afew things</h3>
-            <ol>
-                <li>thing 1</li>
-                <li>thing 2</li>
-                <li>thign 3</li>
-                <li>thing 4</li>
-                <li>thing 5</li>
-                <li>thing 6</li>
-            </ol>
-        </div>
-    )
-}
+
+
 
 function Page() {
     return (
